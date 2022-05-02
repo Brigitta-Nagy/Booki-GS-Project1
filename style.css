@@ -6,21 +6,16 @@
 }
 html{
   width: 100%;
-  height:  1005;
+  height:  100%;
   font-family: 'Raleway', sans-serif;
   
 }
 body {
   width: 100%;
-  height: 1005;
-  /*margin: 30px 50px;*/
+  height: 100%;
+  }
 
-}
-/*main, nav{
-  margin: 3px 5px;
  
-  
-}*/
 div.container{
   margin: 0 auto;
 
@@ -345,7 +340,6 @@ width: 100%;
   width: 100%;
   height: 80%;
   margin: 10px 10px;
-  /*padding: 10px;*/
   object-fit: cover;
 }
 .double img {
@@ -359,7 +353,7 @@ h4{
   margin: 15px 10px 10px ;
   font-weight: 600;
 }
-
+/* Footer */
 .footer{
   background-color: #F2F2F2 ;
  
@@ -384,7 +378,7 @@ h4{
   margin-bottom: 10px;
 }
 
-
+/*media*/
 
 @media only screen and (max-width: 768px)  {
   main, nav {
@@ -425,8 +419,6 @@ h4{
   }
  
   
-
-
   article{
     width: 100%;
     height: 320px;
@@ -486,17 +478,13 @@ h4{
   }
 
   .accommodations {
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
   }
  
-  
-
   aside {
     width: 100%;
   }
- 
-
- 
+  
   .activities-container > div  {
     width:  98%;
     height:  400px;
