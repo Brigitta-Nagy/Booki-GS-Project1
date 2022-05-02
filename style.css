@@ -513,6 +513,7 @@ h4{
   .fa-magnifying-glass{
     visibility: visible;
     display: flex;
+    align-items: center;
     background-color: #0065FC;
     padding: 15px 15px;
     color: white;
