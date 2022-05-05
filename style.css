@@ -17,18 +17,18 @@ body {
   }
 
  
-div.container{
+div.container {
   margin: 0 auto;
 
 }
-ul{
+ul {
  list-style: none;
 }
 /* Global */
-a{
+a {
   text-decoration: none;
   color: black;
-  font-weight: 500;
+  font-weight: 600;
 }
 .price {
   font-weight: 600;
@@ -97,25 +97,32 @@ input:placeholder-shown{
     height: 45px;
     cursor: pointer;
   }
-  .fa-location-dot{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .search-input-icon-container {
     background-color: #F2F2F2;
     width: 20%;
     height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-location-dot{
+
+  }
+  .search-input input {
+    padding:  2px 18px;
   }
   .search-input:after{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
     height: 100%;
     content:'Search';
     font-weight: 600;
     background-color: #0065FC;
+    color:  white;
+    padding:  0 18px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     
