@@ -13,7 +13,7 @@ html{
 body {
   width: 100%;
   height: 100%;
-  margin: 50px 20px;
+  margin: 0 10px 10px 0;
   }
 
  
@@ -41,9 +41,13 @@ justify-content: space-between;
 }
 .navbar{
   display: flex;
+   
 }
 nav ul li{
   padding: 20px 20px;
+  width: 50%; 
+  display: flex;
+  justify-content: space-around;
 }
 nav ul li:hover{
   border-top: solid 1px #0065FC;
@@ -93,7 +97,7 @@ input:placeholder-shown{
     justify-content: flex-start;
     display: flex;
     align-items: center;
-    width: 35%;
+    width: 65%;
     height: 45px;
     cursor: pointer;
   }
@@ -170,7 +174,7 @@ input {
 .accommodations{
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 .hostel {
@@ -305,7 +309,7 @@ width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
  
 }
@@ -349,6 +353,10 @@ width: 100%;
   height: 80%;
   object-fit: cover;
 }
+.double-second {
+  margin: 15px 0 0; 
+  
+}
 .double img {
   height: 70%;
   object-fit: cover;
@@ -391,9 +399,9 @@ h4{
   main, nav {
     padding: 0;
   }
-
  
-   .accommodations-container{
+
+  .accommodations-container{
      display: flex;
      flex-direction: column;
      width: 100%;
@@ -405,8 +413,11 @@ h4{
    background-color: white;
    padding: 0; 
  }
+ .hostel h2{
+   margin: 0 15px;
+ }
    .search-filter {
-     border:  solid 1px lightgray;
+     border:  solid 1px #F2F2F2;
      border-radius: 25px;
      display: flex;
      justify-content: flex-start;
@@ -420,12 +431,13 @@ h4{
      flex-wrap: wrap; 
    }
    .search-input {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-  }
- 
   
+  }
+
+ 
   article{
     width: 100%;
     height: 320px;
@@ -473,15 +485,18 @@ h4{
     margin: 0 auto;
     width: 30%
   }
-  .navbar {
+  .navbar { 
     justify-content: space-evenly;
     width: 100%; 
     margin: 25px 0;
+    border-bottom: solid 1px #F2F2F2;
   }
 
   nav ul li:hover{
+    
     border-top:0ch;
-    border-bottom: solid 1px #0065FC;
+    border-bottom: solid 2px #0065FC;
+    
   }
 
   .accommodations {
@@ -514,15 +529,19 @@ h4{
     color: white;
     border-radius: 15px;
   }
-  .search-input {
-    width: 40%;
+  /*.search-input {
+    width: 80%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     
+  }*/
+  .search-input-icon-container {
+    background-color: #F2F2F2;
+    width: 10%;
   }
 .hostel{
-    width: 100%;
+  width: 100%;
   background-color: white;
 }
 .search-container {
@@ -533,5 +552,9 @@ h4{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  }
+  .double-second {
+    margin: 15px 0; 
+    
   }
 }
