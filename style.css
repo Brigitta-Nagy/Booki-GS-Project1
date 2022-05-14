@@ -61,7 +61,7 @@ h1{
   font-size: 23px;
 }
 h2, .black{
-  padding: 20px 0 20px;
+  padding: 20px 10px 20px;
   font-weight: bold;
   font-size: 20px;
 
@@ -88,8 +88,7 @@ input:placeholder-shown{
     margin: 15px 0px;
   }
   .fa-magnifying-glass{
-    /*display: none;*/
-    visibility: hidden;
+   visibility: hidden;
   }
   .search-input {
     border: solid 1px #F2F2F2;
@@ -111,9 +110,7 @@ input:placeholder-shown{
     justify-content: center;
     align-items: center;
   }
-  .fa-location-dot{
-
-  }
+  
   .search-input input {
     padding:  2px 18px;
   }
@@ -153,6 +150,7 @@ input:placeholder-shown{
     color: #0065FC;
     box-shadow: 0 6px 10px 0 #DEEBFF;
   }
+   
 .search-icon {
   color: #0065FC;
   margin:  0;
@@ -160,6 +158,7 @@ input:placeholder-shown{
   border-radius: 50px;
   padding: 15px 15px;
 }
+
 .information {
   margin: 15px 0;
 }
@@ -182,7 +181,6 @@ input {
   background-color: #F2F2F2;
   border-radius: 20px;
   padding: 20px;
-  
 }
 
 .accommodations-container{
@@ -190,28 +188,23 @@ input {
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
- 
 }
 
 
 aside {
-  
   width:  35%;
   background-color: #F2F2F2;
   border-radius: 20px;
   padding: 20px;
-  
 }
 
 article{
- 
   width:  31%;
   margin: 1% 1% 0 0;
   border:5px solid white;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   overflow: hidden;
-
 }
 
 figure img{
@@ -385,6 +378,7 @@ h4{
 .footer-column{
   width: 80%;
   margin-top: 25px;
+  margin-left: 15px;
   line-height: 1.6;
 
 }
@@ -413,7 +407,7 @@ h4{
    background-color: white;
    padding: 0; 
  }
- .hostel h2{
+ .hostel h2 {
    margin: 0 15px;
  }
    .search-filter {
@@ -458,13 +452,20 @@ h4{
  .double img{
    height: 80%;
  }
+ .activities{
+  margin: 20px 0px 30px;
+  width: 100%;
+  
+  }
+  .activities h2{
+    margin: 0 15px;
+  }
    .activities-container > div  {
      width:  100%;
      height:  400px;
      margin:  1% 1% 0 0;
     
    }
-
    .footer-container{
      
      display: flex;
@@ -529,25 +530,19 @@ h4{
     color: white;
     border-radius: 15px;
   }
-  /*.search-input {
-    width: 80%;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    
-  }*/
+ 
   .search-input-icon-container {
     background-color: #F2F2F2;
     width: 10%;
   }
-.hostel{
+  .hostel{
   width: 100%;
   background-color: white;
-}
-.search-container {
+ }
+  .search-container {
   display: block;
-}
-.search-filter-container{
+ }
+  .search-filter-container{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
